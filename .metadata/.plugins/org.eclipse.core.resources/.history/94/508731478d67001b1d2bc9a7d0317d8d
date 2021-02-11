@@ -1,0 +1,15 @@
+package 객체지향;
+
+//클래스는 일종의 설계도(정의)이고, 인스턴스는 제품(호출)이라고 할 수 있다.
+
+public class 클래스와인스턴스 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(10 + 30);
+		System.out.println(20 + 40);
+		
+
+	}
+
+}

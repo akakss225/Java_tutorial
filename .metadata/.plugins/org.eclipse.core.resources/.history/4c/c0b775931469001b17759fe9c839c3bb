@@ -1,0 +1,10 @@
+package 객체지향;
+
+public class 클래스멤버와인스턴스멤버 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

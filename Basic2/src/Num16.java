@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Num15 {
+public class Num16 {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		
-		float a = sc.nextFloat();
+		int a = sc.nextInt();
 		
-		System.out.printf("%.2f", a);
+		System.out.printf("%d %d %d",a,a,a);
 
 		sc.close();
 	}

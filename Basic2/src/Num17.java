@@ -17,13 +17,13 @@ public class Num17 {
 		
 		while(token.hasMoreTokens()) {
 			arr[i] = Integer.parseInt(token.nextToken());
-			i += i;
+			i += 1;
 		}
 		
 		String hour = String.format("%d", arr[0]);
 		String min = String.format("%d", arr[1]);
 		
-		System.out.println(hour + ":" + min);
+		System.out.print(hour + ":" + min);
 		
 		sc.close();
 		

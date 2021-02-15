@@ -9,7 +9,7 @@ public class Num17 {
 		
 		String a = sc.nextLine();
 		
-		StringTokenizer token = new StringTokenizer(a,": ");
+		StringTokenizer token = new StringTokenizer(a,":");
 		
 		int[] arr = new int[2];
 		

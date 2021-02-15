@@ -14,7 +14,7 @@ Scanner sc = new Scanner(System.in);
         StringTokenizer token = new StringTokenizer(date,".");
         
         //길이 3의 int보관 배열 선언
-        int [] arr = new int[3];
+        int[] arr = new int[3];
         
         int i = 0;  
         while(token.hasMoreTokens()) {

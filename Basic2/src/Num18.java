@@ -26,6 +26,7 @@ public class Num18 {
 		
 		
 		System.out.print(y + "." + m +"."+ d);
+		sc.close();
 
 	}
 

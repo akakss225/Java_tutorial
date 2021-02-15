@@ -24,7 +24,7 @@ public class Num22 {
 		
 		
 		
-		
+		sc.close();
 
 	}
 

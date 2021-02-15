@@ -9,21 +9,21 @@ public class Num14 {
 		
 		String a = sc.nextLine();
 		
-		StringTokenizer token = new StringTokenizer(a," ");
+		StringTokenizer token = new StringTokenizer(a);
 		
-		int[] b = new int[2];
+		String[] b = new String[2];
 		int i = 0;
 		
 		while(token.hasMoreTokens())
 		{
-			b[i] = Integer.parseInt(token.nextToken());
+			b[i] = token.nextToken();
             i+=1;
 		}
 		
-		String x = String.format("%d", b[0]);
-		String y = String.format("%d", b[1]);
+		String x = String.format("%s", b[0]);
+		String y = String.format("%s", b[1]);
 		
-		System.out.print(x +" " + y);
+		System.out.print(y +" " + x);
 
 		sc.close();
 	}

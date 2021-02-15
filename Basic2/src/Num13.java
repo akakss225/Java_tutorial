@@ -24,7 +24,7 @@ public class Num13 {
 		String first = String.format("%d", arr[0]);
 		String second = String.format("%d", arr[1]);
 		
-		System.out.printf("%d %d",first,second);
+		System.out.print(first + " " + second);
 
 
 	}

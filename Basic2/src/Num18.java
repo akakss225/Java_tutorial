@@ -1,0 +1,10 @@
+
+public class Num18 {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+
+}

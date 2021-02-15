@@ -20,8 +20,8 @@ public class Num19 {
 			i += 1;
 		}
 		
-		String first = String.format("%d", arr[0]);
-		String second = String.format("%d", arr[1]);
+		String first = String.format("%06d", arr[0]);
+		String second = String.format("%07d", arr[1]);
 		
 		System.out.print(first + second);
 		sc.close();

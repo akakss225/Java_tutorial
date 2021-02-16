@@ -8,9 +8,9 @@ public class Num23 {
 	        
 	        String text = sc.nextLine();
 	        
-	        char total[] = text.toCharArray();
+	        char[] total = text.toCharArray();
 	        
-	        for(int i=0; i<total.length; i++) {
+	        for(int i = 0; i < total.length; i++) {
 	            System.out.println("'"+total[i]+"'");
 	        }
 	    

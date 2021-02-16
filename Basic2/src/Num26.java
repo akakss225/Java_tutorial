@@ -24,7 +24,7 @@ public class Num26 {
 		String m = String.format("%02d", arr[1]);
 		String d = String.format("%02d", arr[2]);
 		
-		System.out.print(m + "-" + d + "-" + y);
+		System.out.print(d + "-" + m + "-" + y);
 		sc.close();
 
 	}

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Num56 {
+public class Num58 {
 
 	public static void main(String[] args) {
 
@@ -20,11 +20,7 @@ public class Num56 {
 			i += 1;
 		}
 		
-		if(arr[0] == 1 && arr[1] == 0)
-		{
-			System.out.println(1);
-		}
-		else if(arr[0] == 0 && arr[1] == 1)
+		if(arr[0] == 0 && arr[1] == 0)
 		{
 			System.out.println(1);
 		}

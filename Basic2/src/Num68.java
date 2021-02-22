@@ -16,7 +16,7 @@ public class Num68 {
 		{
 			System.out.println("B");
 		}
-		else if(score >= 70)
+		else if(score >= 40)
 		{
 			System.out.println("C");
 		}

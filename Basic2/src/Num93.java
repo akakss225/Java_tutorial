@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class Num93 {
 
@@ -19,7 +18,7 @@ public class Num93 {
             //arr[0]번에는 1번이 1번불려서 1이 저장된다.
             //arr[1]번에는 2번이 2번불려서 2가 저장된다.
             //...arr[9] 한칸씩 밀려서 저장되기때문에 -1을 해준다.
-            total[Integer.parseInt(arr[i])-1] +=1;
+            total[Integer.parseInt(arr[i]) -1] +=1;
         }
         
         for(int i=0; i<total.length; i++) {

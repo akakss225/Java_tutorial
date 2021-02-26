@@ -12,8 +12,6 @@ public class Num96 {
 		
 		int x,y;
 		
-	
-		
 		for(int i = 0; i < a; i++)
 		{
 			x = sc.nextInt();
@@ -22,9 +20,9 @@ public class Num96 {
 			arr[x-1][y-1] = 1;
 		}
 		
-		for(int k = 0; k < 20; k++ )
+		for(int k = 0; k < 19; k++ )
 		{
-			for(int l = 0; l < 20; l++)
+			for(int l = 0; l < 19; l++)
 			{
 				System.out.print(arr[k][l] + " ");
 			}

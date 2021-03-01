@@ -1,6 +1,6 @@
 package ´ÙÇü¼º;
 
-class B2 extends B1{
+class B2 extends A1{
 	public String x() {
 		return "B2.x";
 	}

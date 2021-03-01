@@ -1,9 +1,8 @@
 package 객체지향;
 
-import java.util.Scanner;
-import java.util.StringTokenizer;
 
 class Calculator12{
+	// PI를 상수로 지정. 이는 전 class에 적용된다.
 	static final double PI = 3.14;
 	double left , right;
 	

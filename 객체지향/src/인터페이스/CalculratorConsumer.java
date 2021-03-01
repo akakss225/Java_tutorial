@@ -1,6 +1,6 @@
-package 객체지향;
+package 인터페이스;
 
-public class Interface1 {
+public class CalculratorConsumer {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

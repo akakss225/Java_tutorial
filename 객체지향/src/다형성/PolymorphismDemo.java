@@ -20,7 +20,7 @@ public class PolymorphismDemo {
 		
 		A obj = new B();
 		System.out.println(obj.x());
-		//obj.y();
+		//System.out.println(obj.y());
 		//class B를 인스턴스화 했지만, 데이터타입은 A이기 때문에 메소드 y를 출력하지 못한다.
 
 	}

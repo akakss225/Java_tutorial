@@ -23,6 +23,8 @@ public class Ãß»ó {
 
 		B obj = new B();
 
+		obj.b();
+		obj.d();
 	}
 
 }

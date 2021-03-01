@@ -24,7 +24,7 @@ public class Num97{
         //십자 뒤깁기 횟수(n)을 입력받는다 
         int n = Integer.parseInt(br.readLine());  
         
-        ArrayList<String> list = new ArrayList();
+        ArrayList<String> list = new ArrayList();		
         
         //십자 뒤깁지 좌표가 횟수(n)만큼 입력된다
         for (int i = 0; i < n; i++) {

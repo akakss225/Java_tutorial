@@ -1,12 +1,4 @@
-/* try {
- *    예외의 발생이 예상되는 로직
- * }catch(예외클래스 인스턴스){
- *    예외가 발생했을 때 실행되는 로직
- * }  
- */
-
-
-class Cal{
+class Cal1{
 	int left,right;
 	public void set(int left, int right) {
 		this.left = left;
@@ -26,21 +18,23 @@ class Cal{
 		}catch(Exception e) {
 			//오류가 발생했습니다./ by zero
 			//일종의 뒷수습
-			System.out.println("오류가 발생했습니다." + e.getMessage());
+			System.out.println("\n\ne.getMessage\n" + e.getMessage());
+			System.out.println("\n\ne.toString()\n" + e.toString());
+			System.out.println("\n\ne.printStrackTrace()");
+			e.printStackTrace();
 		}
 	}
 }
 
-public class 예외1 {
+
+public class 예외2 {
 
 	public static void main(String[] args) {
 		
-		Cal c = new Cal();
+		Cal1 c = new Cal1();
 		//여기서 분모에 0이라는 값을 넣음으로, 오류를 확인할 수 있다.
 		c.set(10, 0);
 		c.devide();
-
-		
 
 	}
 

@@ -12,7 +12,8 @@ class A{
 		}catch(ArithmeticException e) {
 			System.out.println("ArithmeticException e");
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("ArrayIndexOutOfBoundsException e");
+			System.out.println("ArrayIndexOutOfBoundsException e");	
+		}catch(Exception e) {
 			
 		}
 	}
@@ -25,7 +26,13 @@ public class ¿¹¿Ü3 {
 
 		A a = new A();
 		
+		a.z(10, 1);
+		
 		a.z(1, 0);
+		
+		a.z(2, 1);
+		
+		a.z(0, 1);
 
 	}
 

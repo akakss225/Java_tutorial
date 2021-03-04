@@ -26,6 +26,9 @@ public class 예외5 {
 
 	public static void main(String[] args) {
 		
+		
+		//위 상위 클래스에서 사용자까지 throw즉, 던지기를 했기 떄문에 오류를 사용자가 잡아야한다.
+		
 		Y a = new Y();
 		try {
 			a.run();

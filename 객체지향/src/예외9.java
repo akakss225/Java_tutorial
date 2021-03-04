@@ -1,5 +1,5 @@
-class DivideException1 extends ArithmeticException //Exception 
-{
+class DivideException1 extends ArithmeticException{
+	
 	DivideException1(){
 		super();
 	}
@@ -41,9 +41,6 @@ public class ¿¹¿Ü9 {
 			System.out.println(e.getMessage());
 		}
 		  
-		 
-		
-	
 	}
 
 }

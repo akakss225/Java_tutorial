@@ -14,6 +14,8 @@ class B{
 			System.out.println("ArithmeticException");
 		}catch(Exception e) {
 			System.out.println("Exception");
+			
+		// finally는 문법적으로 무조건 try catch문에서만 사용할 수 있다.
 		}finally {
 			System.out.println("finally");
 		}

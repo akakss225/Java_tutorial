@@ -7,7 +7,8 @@
 	* 이를 이용하여 나만의 Exception을 만들 수 있다.
 	*/
 //이때 부모class를 Exception 혹은 IOException으로 해주면, checked Exception이기 때문에, 반드시 예외처리를 해주어야한다.
-class DivideException extends ArithmeticException{
+class DivideException extends ArithmeticException //Exception 
+{
 	//기본 생성자는 존재하지만,
 	DivideException(){
 		super();
@@ -24,7 +25,8 @@ class Cal3{
 		this.left = left;
 		this.right = right;
 	}
-	public void devide() {
+	public void devide() //throws DivideException
+	{
 		
 		if(right == 0) {
 			throw new DivideException("0으로 나눌 수 없습니다.");
@@ -40,6 +42,12 @@ public class 예외8 {
 	public static void main(String[] args) {
 
 		Cal3 c1 = new Cal3();
+		/*try {
+		 * c1.devide();}
+		 * catch(DivideException e){
+		 * System.out.println(e.getMessage);}
+		 */
+		
 		c1.set(10, 0);
 		c1.devide();
 

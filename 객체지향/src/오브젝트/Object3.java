@@ -6,7 +6,7 @@ class Student{
 		this.name = name;
 	}
 	public boolean equals(Student ob) {
-		Student s = ob;
+		Student s =  ob;
 		return this.name == s.name;
 	}
 }

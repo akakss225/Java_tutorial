@@ -16,7 +16,7 @@ class Calculator1{
 	
 	//toString 오브젝트를 오버라이딩 할 수 있다.
 	public String toString() {
-		return "left : " + this.left + ", right : " + this.right;
+		return super.toString() + " left : " + this.left + ", right : " + this.right;
 	}
 }
 
@@ -28,7 +28,7 @@ public class Object2_1 {
 		
 		c.set(10, 20);
 		
-		System.out.println(c.toString());
+		System.out.println(c);
 
 	}
 

@@ -6,28 +6,32 @@ public class base1 {
 		// 가장 기초적인 알고리즘 : 정렬
 		int[] arr = {1,10,5,6,4,3,8,7,9,2};
 		
-		int min = 999;
-		int index = 0 ;
-		int temp ;
 		
 		for(int i = 0; i < 10; i++)
 		{
-			for(int j = 0; j < 10; j++)
+
+			for(int j = i+1; j < 10; j++)
 			{
-				if(min > arr[j])
+				if(arr[i] > arr[j])
 				{
-					min = arr[j];
-					index = j;
+					int temp;
+					temp = arr[j];
+					arr[j] = arr[i];
+					arr[i] = temp;
 				}
 			}
-			temp = arr[i];
-			arr[i] = arr[index];
-			arr[index] = temp;	
 		}
+		
 		for(int i = 0; i < 10; i ++)
 		{
 			System.out.print(arr[i] + " ");
 		}
+		
+		// 수행시간이 굉장히 오래걸림. N * ( N + 1 ) / 2 번 확인해야하기 때문.
+		// N * N 의 수행시간이 걸린다고 표현함. 빅오(O) 표기법으로, O(N*N)이라고 표현함.
+		// 보통 선택정렬의 경우 O(N^2) 수행시간이 걸린다.
+		
+		
 		
 		
 		

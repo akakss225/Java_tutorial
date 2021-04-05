@@ -4,6 +4,8 @@ public class base1 {
 	public static void main(String[] args) {
 		
 		// 가장 기초적인 알고리즘 : 정렬
+		// 선택정렬
+		
 		int[] arr = {1,10,5,6,4,3,8,7,9,2};
 		
 		

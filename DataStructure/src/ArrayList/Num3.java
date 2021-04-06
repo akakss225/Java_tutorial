@@ -30,6 +30,9 @@ public class Num3 {
 		System.out.println(numbers.remove(1));
 		System.out.println(numbers);
 		
+		numbers.removeFirst();
+		System.out.println(numbers);
+		
 	}
 
 }

@@ -46,6 +46,12 @@ public class ArrayList {
 		elementData[size] = null;
 		return removed;
 	}
+	public Object removeFirst() {
+		return remove(0);
+	}
+	public Object removeLast() {
+		return remove(size-1);
+	}
 	public String toString(){
 		String str = "[";
 		for(int i = 0; i < size; i++)

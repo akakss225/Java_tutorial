@@ -36,6 +36,14 @@ public class ArrayList {
 		}
 		return true;	
 	}
+	public boolean remove(int index) {
+		for(int i = index + 1; i < size; i++)
+		{
+			elementData[i-1] = elementData[i];
+		}
+		size--;
+		return true;
+	}
 	public String toString(){
 		String str = "[";
 		for(int i = 0; i < size; i++)

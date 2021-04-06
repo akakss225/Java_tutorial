@@ -27,6 +27,10 @@ public class Num3 {
 		
 		System.out.println(numbers);
 		
+		numbers.remove(1);
+		
+		System.out.println(numbers);
+		
 	}
 
 }

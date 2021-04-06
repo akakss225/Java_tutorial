@@ -52,6 +52,10 @@ public class ArrayList {
 	public Object removeLast() {
 		return remove(size-1);
 	}
+	
+	public Object get(int index) {
+		return elementData[index];
+	}
 	public String toString(){
 		String str = "[";
 		for(int i = 0; i < size; i++)

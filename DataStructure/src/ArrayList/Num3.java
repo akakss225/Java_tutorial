@@ -33,6 +33,12 @@ public class Num3 {
 		numbers.removeFirst();
 		System.out.println(numbers);
 		
+		System.out.println(numbers.get(0));
+		System.out.println(numbers.get(1));
+		System.out.println(numbers.get(2));
+		System.out.println(numbers.get(3));
+		
+		
 	}
 
 }

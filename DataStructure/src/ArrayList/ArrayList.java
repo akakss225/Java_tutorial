@@ -56,6 +56,23 @@ public class ArrayList {
 	public Object get(int index) {
 		return elementData[index];
 	}
+	
+	public int size() {
+		return size;
+	}
+	
+	public int indexOf(Object element) {
+		for(int i = 0; i < size; i++)
+		{
+			if(elementData[i] == element)
+			{
+				return i;
+			}
+		}
+		return -1;
+		
+	}
+	
 	public String toString(){
 		String str = "[";
 		for(int i = 0; i < size; i++)

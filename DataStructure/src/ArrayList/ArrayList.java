@@ -73,6 +73,25 @@ public class ArrayList {
 		
 	}
 	
+	public ListIterator listIterator() {
+		return new ListIterator();
+	}
+	
+	class ListIterator{
+		private int nextIndex = 0;
+		public Object next() {
+//			Object returnData = elementData[nextIndex];
+//			nextIndex++;
+//			return returnData;
+			return elementData[nextIndex++];
+		}
+		
+		public boolean hasNext() {
+			
+			return nextIndex < size();
+		}
+	}
+	
 	public String toString(){
 		String str = "[";
 		for(int i = 0; i < size; i++)

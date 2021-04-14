@@ -90,7 +90,15 @@ public class ArrayList {
 			
 			return nextIndex < size();
 		}
+		public Object previous() {
+			return elementData[--nextIndex]; // Error를 내지 않게하기 위해 먼저 index값을 1 을 감소 시키고 리턴한다
+			
+		}
+		public boolean hasPrevious() {
+			return nextIndex > 0;
+		}
 	}
+	
 	
 	public String toString(){
 		String str = "[";

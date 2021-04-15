@@ -59,7 +59,6 @@ public class LinkedList {
 		}
 		
 	}
-	
 	public Object removeFirst() {
 		Node x = head;
 		head = head.next;
@@ -67,6 +66,30 @@ public class LinkedList {
 		x = null;
 		size--;
 		return returnData;
+		
+	}
+	public Object remove(int k) {
+		if(k == 0)
+		{
+			return removeFirst();
+		}
+		else
+		{
+			Node curNode = node(k);
+			Node preNode = node(k-1);
+			Node temp = curNode;
+			preNode.next = curNode.next;
+			if(curNode == tail)
+			{
+				tail = preNode;
+			}
+			curNode = null;
+			size--;
+			return temp;
+		}
+	}
+	public Object removeLast() {
+		return remove(size-1);
 	}
 	public Node node(int index) {
 		Node x = head;

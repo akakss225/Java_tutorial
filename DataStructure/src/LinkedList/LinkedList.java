@@ -156,6 +156,10 @@ public class LinkedList {
 			
 			return lastReturned.data;
 		}
+		public boolean hasNext() {
+			return nextIndex < size();
+		}
+		
 	}
 	
 

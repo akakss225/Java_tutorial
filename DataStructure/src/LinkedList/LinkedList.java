@@ -112,7 +112,6 @@ public class LinkedList {
 		}
 		return index;
 	}
-	
 	public Node node(int index) {
 		Node x = head;
 		for(int i = 0; i < index; i++)
@@ -136,6 +135,27 @@ public class LinkedList {
 		}
 		str += temp.data;
 		return str + "]";
+	}
+	
+	
+	public ListIterator listIterator() {
+		return new ListIterator();
+	}
+	public class ListIterator {
+		private Node next;
+		private Node lastReturned;
+		private int nextIndex;
+		
+		ListIterator(){
+			next = head;
+		}
+		public Object next() {
+			lastReturned = next;
+			next = next.next;
+			nextIndex++;
+			
+			return lastReturned.data;
+		}
 	}
 	
 

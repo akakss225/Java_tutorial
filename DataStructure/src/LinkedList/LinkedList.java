@@ -98,6 +98,20 @@ public class LinkedList {
 		Node x = node(k);
 		return x.data;
 	}
+	public int indexOf(Object data) {
+		Node x = head;
+		int index = 0;
+		while(x.data != data)
+		{
+			x = x.next;
+			index += 1;
+			if(x == null)
+			{
+				return -1;
+			}
+		}
+		return index;
+	}
 	
 	public Node node(int index) {
 		Node x = head;

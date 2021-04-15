@@ -91,6 +91,14 @@ public class LinkedList {
 	public Object removeLast() {
 		return remove(size-1);
 	}
+	public int size() {
+		return size;
+	}
+	public Object get(int k) {
+		Node x = node(k);
+		return x.data;
+	}
+	
 	public Node node(int index) {
 		Node x = head;
 		for(int i = 0; i < index; i++)

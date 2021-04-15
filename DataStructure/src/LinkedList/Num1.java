@@ -10,7 +10,8 @@ public class Num1 {
 		nums.addFirst(20);
 		nums.addFirst(10);
 		
-		System.out.println(nums);
+		
+		
 	}
 	
 

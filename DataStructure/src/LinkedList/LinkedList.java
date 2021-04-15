@@ -40,6 +40,25 @@ public class LinkedList {
 			size++;
 		}
 	}
+	public void add(int k, Object input) {
+		if(k == 0) {
+			addFirst(input);
+		}
+		else if(k == size)
+		{
+			addLast(input);
+		}
+		else
+		{
+			Node newNode = new Node(input);
+			Node x = node(k-1);
+			Node y = node(k);
+			x.next = newNode;
+			newNode.next = y;
+			size++;
+		}
+		
+	}
 	public Node node(int index) {
 		Node x = head;
 		for(int i = 0; i < index; i++)
@@ -48,5 +67,6 @@ public class LinkedList {
 		}
 		return x;
 	}
+	
 
 }
